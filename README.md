@@ -28,6 +28,8 @@ delay(1000);
 }
 
 ```
+### Descripció:
+Aquest codi reprodueix un fitxer de so AAC des de la memòria flash (PROGMEM) utilitzant sortida I2S en un microcontrolador, com l'ESP32.
 
 ## Segón Codi
 ```c++
@@ -96,8 +98,11 @@ void audio_eof_speech(const char *info){
     Serial.print("eof_speech  ");Serial.println(info);
 }
 
-
-
-
-
 ```
+### Descrpició:
+Aquest codi reprodueix un fitxer d'àudio WAV des d'una targeta SD mitjançant sortida I2S i mostra informació del fitxer per sèrie.
+
+
+
+
+
